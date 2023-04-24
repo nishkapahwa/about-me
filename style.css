@@ -1,0 +1,156 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    font-family: Montserrat, Arial;
+    
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    margin-left: -10px;
+    margin-top: -10px;    
+    position: absolute;
+    background-color: rgb(59, 62, 62);
+    overflow: scroll;
+  }
+
+  .header{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(134, 214, 161);
+    
+    display: flexbox;
+  }
+  .imgc{
+    display: flex;
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 50px;
+    
+
+  }
+  .imgc img{
+    height: 100px;
+    
+
+    
+  }
+  .imgc2  {
+    display: flex;
+    position: absolute;
+    padding-top: 220px;
+    padding-left: 48%;
+
+  }
+  .imgc2 img{
+    height: 70px;
+  }
+  .name{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 150px;
+    font-size: 35px;
+   font-family: Kalam;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(3, 25, 25);
+    display: flex;
+  }
+  .intro{
+    position: absolute;
+    margin-left: 45%;
+    font-size: 12px;
+    color: azure;
+    display: flex;
+    padding-top: 200px;
+    font-family: Kalam;
+  }
+  .container{
+    display: grid;
+    margin-top: 20px;
+    justify-items: center;
+    overflow: scroll;
+  }
+  .imgcontainer img {
+
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    
+  }
+  .introduction
+  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+.intro-header{
+    margin-top: 14px;
+    font-size: 28px;
+    display: flex;
+    color: rgb(251, 230, 230);
+
+  }
+hr{
+    border-color: cornsilk;
+}
+  .intro-body{
+    display: flex;
+    overflow: auto;
+    font-size: 15px;
+    
+    margin-top: 16px;
+    margin-left: 12px;
+    width: 50%;
+    overflow: auto;
+    color: rgb(255, 255, 139);
+    flex-direction: column;
+    align-items: center;
+  }
+  .title{
+   display: flex; 
+   color: teal;
+   font-size: 20px;
+   
+  }
+  .title-body{
+    display: flex;
+  }
+  .intro-body button{
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rosybrown;
+    justify-self: center;
+    display: flex;
+    font-style: normal;
+    
+    
+  }
+.intro-body a{
+  text-decoration: none;
+  
+}
+.footer{
+    background-color: rgb(134, 214, 161);
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+
+}
+.footer a:hover{
+  text-decoration: underline;
+  
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
